@@ -1,5 +1,4 @@
 ### [Spring-Boot] (http://projects.spring.io/spring-boot/)
-=======================
 
 #####Spring-Boot purpose:
 Takes an opinionated view of building production-ready Spring applications. 
