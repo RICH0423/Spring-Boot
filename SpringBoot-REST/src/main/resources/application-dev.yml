@@ -1,0 +1,23 @@
+spring:
+  profiles: dev
+  jpa:
+    show-sql: true
+    hibernate:
+        ddl-auto: update
+
+server:
+    port: 9090
+    contextPath: /Spring-Boot
+
+# spring.datasource:
+#     driverClassName: com.mysql.jdbc.Driver
+#     url: jdbc:mysql://127.0.0.1:3306/test
+#     username: root
+#     password: 1234
+
+conn.pool:
+    corePoolSize: 20
+    maxPoolSize: 100
+    queueCapacity: 200
+
+
