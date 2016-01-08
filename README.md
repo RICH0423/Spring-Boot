@@ -1,8 +1,15 @@
 ### [Spring-Boot] (http://projects.spring.io/spring-boot/)
 
-#####Spring-Boot purpose:
-Takes an opinionated view of building production-ready Spring applications. 
-Spring Boot favors convention over configuration and is designed to get you up and running as quickly as possible.
+#####Purpose:
+- Takes an opinionated view of building production-ready Spring applications. 
+ Spring Boot favors convention over configuration and is designed to get you up and running as quickly as possible.
+- To further simplify Spring application development.
+
+#####Main features:
+- Spring Boot starters
+- Autoconfiguration
+- Command-line interface (CLI)
+- Actuator
 
 ---------------
 #####Spring Boot related projects
