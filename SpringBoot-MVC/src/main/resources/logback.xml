@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <Target>System.out</Target>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n</pattern>
+        </encoder>
+    </appender>
+    
+    <appender name="JavaFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+       <File>/Volumes/Apple_SD/spring-boot-mvc.log</File>
+       <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>/Volumes/Apple_SD/spring-boot-mvc.log.%d{yyyy-MM-dd}</fileNamePattern>
+
+            <!-- keep 180 days' worth of history -->
+            <maxHistory>180</maxHistory>         
+       </rollingPolicy>
+
+        <encoder>
+            <Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level - %msg %n</Pattern>
+        </encoder>
+        
+        <append>true</append>
+        <prudent>false</prudent>
+    </appender>
+    
+    <logger name="spring-mvc-logger" level="info" additivity="false">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="JavaFileAppender" />
+    </logger>
+    
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+        <!-- <appender-ref ref="JavaFileAppender" /> -->
+    </root>
+    
+</configuration>
