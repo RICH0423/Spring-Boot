@@ -14,5 +14,5 @@
 ---------------
 #####Spring Boot related projects
 - [SpringBoot-REST] (https://github.com/RICH0423/Spring-Boot/tree/master/SpringBoot-REST) Use Spring-Boot to build RESTful web service.
-- [SpringBoot-MVC] (): Use Spring-Boot to build MVC web application.
+- [SpringBoot-MVC] (https://github.com/RICH0423/Spring-Boot/tree/master/SpringBoot-MVC): Use Spring-Boot to build MVC web application.
 
