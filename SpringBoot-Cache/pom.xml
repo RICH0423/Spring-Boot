@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.rich.cache</groupId>
-	<artifactId>cache-manager</artifactId>
+	<artifactId>SpringBoot-Cache</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>cache-manager</name>
-	<description>Demo project for Spring Boot</description>
+	<name>SpringBoot Cache</name>
+	<description>Demo project for Spring Boot and Ehcache</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
